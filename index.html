@@ -1,78 +1,74 @@
 <!DOCTYPE html>
 <html lang="am">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ለህሌኒ 🎂</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
-* {
-  box-sizing: border-box;
-}
+  <title>ለህሌኒ 🎂</title>
 
-body {
-  margin: 0;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
-  text-align: center;
-  color: #fff;
-}
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
-.container {
-  width: 90%;
-  max-width: 450px;
-  padding: 35px 20px;
-  background: rgba(255,255,255,0.18);
-  border-radius: 25px;
-  backdrop-filter: blur(10px);
-}
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      color: white;
 
-.gift {
-  font-size: 100px;
-  animation: bounce 1.5s infinite;
-}
+      background: linear-gradient(
+        135deg,
+        #ff758c,
+        #ff7eb3,
+        #a18cd1
+      );
+    }
 
-h1 {
-  font-size: 32px;
-}
+    .container {
+      width: 90%;
+      max-width: 450px;
+      padding: 35px 20px;
 
-button {
-  border: none;
-  padding: 15px 25px;
-  border-radius: 30px;
-  font-size: 18px;
-  background: white;
-  color: #ff4f81;
-  cursor: pointer;
-  font-weight: bold;
-}
+      background: rgba(255, 255, 255, 0.18);
+      backdrop-filter: blur(10px);
 
-#message {
-  display: none;
-}
+      border-radius: 25px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    }
 
-@keyframes bounce {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-15px); }
-}
-</style>
-</head>
+    .gift {
+      font-size: 90px;
+      animation: bounce 1.5s infinite;
+    }
 
-<body>
+    h1 {
+      font-size: 30px;
+      margin: 20px 0;
+    }
 
-<div class="container" id="start">
-  <div class="gift">🎁</div>
-  <h1>ለህሌኒ ❤️</h1>
-  <p>አንድ ትንሽ ስጦታ አለልሽ...</p>
-  <button onclick="openGift()">ስጦታውን ክፈቺ 🎁</button>
-</div>
+    p {
+      font-size: 18px;
+      line-height: 1.7;
+    }
 
-<div class="container" id="message">
-  <div class="gift">🎂</div>
-  <h1>መልካም ልደት ህሌኒ! 🎉</h1>
-  <p>
-    ይህ ትንሽ ስጦታ ፈገግ እንድትይ ብዬ 
+    button {
+      border: none;
+      padding: 15px 25px;
+
+      border-radius: 30px;
+
+      font-size: 18px;
+      font-weight: bold;
+
+      background: white;
+      color: #ff4f81;
+
+      cursor: pointer;
+
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
